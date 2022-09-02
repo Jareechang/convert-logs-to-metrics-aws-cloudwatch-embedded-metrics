@@ -1,15 +1,17 @@
-# Error handling 
+# Convert logs to metrics 
 
-<img src="https://www.jerrychang.ca/images/lambda-response-mindmap.png" alt="AWS Lambda mindmap" style="width:100%">
+Convert logs to metrics using AWS Cloudwatch embedded metrics.
 
-An overview on how to handle errors when using AWS lambda.
+<img src="https://www.jerrychang.ca/images/cloudwatch-embedded-metrics-architecture.png" alt="AWS architecture with embedded cloudwatch metrics" style="width:100%">
 
-**In this module, we’ll answer questions such as:**
+If you want to learn what AWS Cloudwatch metrics, check our my post on [What is Cloudwatch embedded metrics ?](https://www.jerrychang.ca/writing/what-is-cloudwatch-embedded-metrics).
 
-✅ How to structure our code so that the code is testable ?
+**What we’re going to be doing in the tutorial:**
 
-✅ What are the steps to simple and testable code ?
+✅ Update our logger to convert logs to metrics for error tracking
 
-✅ How and what tests should we be writing ?
+✅ Work with the client library aws-embedded-metrics for Node.js
 
-Guide: [AWS Lambda: The structured approach to simple and testable code](https://www.jerrychang.ca/writing/aws-lambda-the-structured-approach-to-simple-and-testable-code)
+✅ View and track the errors on AWS console - Cloudwatch
+
+- Tutorial: [AWS Lambda: Convert logs to metrics using Cloudwatch embedded metrics](https://www.jerrychang.ca/writing/convert-logs-to-metrics-using-aws-cloudwatch-embedded-metrics)
